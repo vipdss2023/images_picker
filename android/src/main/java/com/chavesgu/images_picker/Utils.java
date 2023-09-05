@@ -31,6 +31,7 @@ public class Utils {
                 .isEnableCrop(false)
                 .isCompress(false)
                 .minimumCompressSize(100)
+                .filterMinFileSize(1/1024)
                 .isReturnEmpty(false)
                 .isAndroidQTransform(true)
                 .setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT)
